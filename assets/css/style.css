@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +38,7 @@ h2 {
 }
 
 #truck-logo {
+    font-family: 'El Messiri', sans-serif;
     float: left;
     line-height: 50px;
 }
@@ -50,7 +53,7 @@ h2 {
     display: inline;
     list-style-type: none;
     margin-right: 40px;
-
+    font-size: 150%;
 }
 
 .nav-list a {
@@ -84,4 +87,11 @@ h2 {
     padding: 10%;
     font-size: 200%;
     color: #1b1b1b;
+}
+
+#introduction {
+    font-size: 135%;
+    margin: 10px;
+    padding: 20px 0 20px 0;
+    text-align: justify;
 }
