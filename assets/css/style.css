@@ -12,17 +12,31 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 500;
-    color: #1b1b1b;
+    color: #1c1710;
 }
 
 #home-image {
     background: url(../images/tea-1.jpeg) no-repeat center center;
     width: 100%;
-    height: 600px;
+    height: 500px;
+
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 #image-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 }
@@ -48,7 +62,7 @@ h2 {
     text-align: right;
 }
 
-.nav-list > li {
+.nav-list>li {
 
     display: inline;
     list-style-type: none;
@@ -78,7 +92,7 @@ h2 {
     height: 200px;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
 }
 
@@ -90,8 +104,39 @@ h2 {
 }
 
 #introduction {
+    height: 500px;
     font-size: 135%;
     margin: 10px;
-    padding: 20px 0 20px 0;
+    padding: 10px 10px 10px 10px;
     text-align: justify;
+}
+
+.menu {
+    margin: 10px;
+    
+}
+
+.menu > h2 {
+    text-align: center;
+}
+
+#tea-items, #snack-items {
+    
+    display: block;
+}
+
+#tea-items li {
+    
+    text-align: right;
+    
+}
+
+#snack-items {
+    text-align: left;
+}
+
+.location-timings {
+
+    text-align: center;
+    
 }
