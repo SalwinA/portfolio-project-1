@@ -113,6 +113,7 @@ h2 {
 
 .menu {
     margin: 10px;
+    height: 500px; 
     
 }
 
@@ -120,23 +121,47 @@ h2 {
     text-align: center;
 }
 
-#tea-items, #snack-items {
+#tea-items, #snacks-items {
     
     display: block;
+    height: 200px;
+    width: 800px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    border: #1b1b1b dashed 2px;
+    letter-spacing: 2px;
+    text-align: justify;
 }
+
 
 #tea-items li {
-    
-    text-align: right;
-    
+    list-style: none;
+    text-align: center;
 }
 
-#snack-items {
-    text-align: left;
+#snacks-items li {
+    text-align: center;
+    list-style: none;
 }
 
-.location-timings {
+#location-timings {
 
     text-align: center;
-    
+    margin: 10px;
+    padding: 20px 0 0 0;
+    letter-spacing: 2px;    
 }
+
+#tea-pic {
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+#snack-pic {
+    float: right;
+    height: 200px;
+    width: 300px;
+      
+}
+
