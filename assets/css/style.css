@@ -53,7 +53,7 @@ body {
     overflow: hidden;
     width: 100%;
     height: 500px;
-    
+
 }
 
 /* Headings & Logo */
@@ -127,23 +127,35 @@ h2 {
     letter-spacing: 2px;
 }
 
+#intro-park {
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#intro-discount {
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
 .menu {
     margin: 10px;
-    height: 500px; 
+    height: 500px;
     font-size: 135%;
     letter-spacing: 2px;
 }
 
-.menu > h2 {
+.menu>h2 {
     text-align: center;
 }
 
-#tea-items, #snacks-items {
-    
+#tea-items,
+#snacks-items {
+
     display: block;
     height: 200px;
     width: 800px;
-    margin: 20px 0 20px 300px;
+    margin: 20px 0 20px 220px;
     padding: 10px 10px 10px 10px;
     border: #1b1b1b dashed 2px;
     letter-spacing: 2px;
@@ -164,9 +176,9 @@ h2 {
 
     text-align: center;
     margin: 10px;
-    padding: 40px 0 0 0;
+    padding: 70px 0 0 0;
     letter-spacing: 2px;
-    font-size: 135%;    
+    font-size: 135%;
 }
 
 #tea-pic {
@@ -179,24 +191,25 @@ h2 {
     float: right;
     height: 200px;
     width: 300px;
-      
+
 }
 
-.form-section, #contact {
+.form-section,
+#contact {
 
     font-size: 135%;
     letter-spacing: 2px;
     margin: 10px;
     padding: 20px 20px 20px 20px;
-    
+
 }
 
 .form-input {
     margin: 0 0 0 50px;
-       
+
 }
 
-  
+
 #comments {
     width: 400px;
     height: 25px;
@@ -206,8 +219,43 @@ h2 {
 
 #form-submit {
     width: 75px;
-    height: 25px;
+    height: 30px;
     border-radius: 20%;
     text-transform: uppercase;
-    background-color: teal;
+    background-color: #b20084;
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    #introduction {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}   
+
+@media screen and (max-width:950px) {
+    .nav-list {
+        float: left;
+        clear: left;
+        line-height: 20px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+    #introduction {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .form-section, .menu {
+        width: inherit;
+    }
+
+    #tea-items, #snacks-items {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
 }
