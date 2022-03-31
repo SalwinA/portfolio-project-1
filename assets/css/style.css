@@ -245,17 +245,33 @@ h2 {
 
     #introduction {
         width: 90%;
-        height: 1200px;
+        height: 950px;
         margin: 0 auto;
     }
 
-    .form-section, .menu {
-        width: inherit;
+    .menu {
+        width: 80%;
+        padding: 0;
+        height: 950px;
+        text-align: center;
+        
     }
 
     #tea-items, #snacks-items {
-        width: 100%;
+        border-style: none;
+        width: 90%;
+        
         text-align: center;
-        display: block;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        clear: both;
     }
+
+#labels {
+    width: 70%;
+    height: 950px;
+    margin: 0 auto;   
+}
+    
 }
