@@ -276,3 +276,12 @@ h2 {
     }
 
 }
+
+@media screen and (max-width:380px) {
+
+    #nav-list {
+        margin: 0 0 0 10px;
+        line-height: 5px;
+        
+    }
+}
