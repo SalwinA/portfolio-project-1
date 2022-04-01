@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedbuck | Ruby's Zingy Cafe</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
@@ -37,41 +37,62 @@
             <h2>Kindly rate your experience with us!!</h2>
 
             <div id="labels">
-                <label for="food">Food Quality</label>
-                <input id="food" type="radio" class="form-input" name="food-quality" value="excellent" required>
-                <i class="fas fa-thumbs-up"></i>
-                <input id="food" type="radio" class="form-input" name="food-quality" value="poor" required>
-                <i class="fas fa-thumbs-down"></i>
+                <div id="label">
+                    <label for="food">Food Quality</label>
+                </div>
+
+                <div id="radio-button">
+                    <input id="food" type="radio" class="form-input" name="food-quality" value="excellent" required>
+                    <i class="fas fa-thumbs-up"></i>
+                    <input id="food" type="radio" class="form-input" name="food-quality" value="poor" required>
+                    <i class="fas fa-thumbs-down"></i>
+                </div>
                 <br>
 
-                <label for="service">Quality of Service</label>
-                <input id="service" type="radio" class="form-input" name="service-quality" value="excellent" required>
-                <i class="fas fa-thumbs-up"></i>
-                <input id="service" type="radio" class="form-input" name="service-quality" value="poor" required>
-                <i class="fas fa-thumbs-down"></i>
+                <div id="label">
+                    <label for="service">Quality of Service</label>
+                </div>
+
+                <div id="radio-button">
+                    <input id="service" type="radio" class="form-input" name="service-quality" value="excellent"
+                        required>
+                    <i class="fas fa-thumbs-up"></i>
+                    <input id="service" type="radio" class="form-input" name="service-quality" value="poor" required>
+                    <i class="fas fa-thumbs-down"></i>
+                </div>
                 <br>
 
-                <label for="staff">Staff Friendliness</label>
-                <input id="staff" type="radio" class="form-input" name="staff-friendliness" value="excellent" required>
-                <i class="fas fa-thumbs-up"></i>
-                <input id="staff" type="radio" class="form-input" name="staff-friendliness" value="poor" required>
-                <i class="fas fa-thumbs-down"></i>
+                <div id="label">
+                    <label for="staff">Staff Friendliness</label>
+                </div>
+
+                <div id="radio-button">
+                    <input id="staff" type="radio" class="form-input" name="staff-friendliness" value="excellent"
+                        required>
+                    <i class="fas fa-thumbs-up"></i>
+                    <input id="staff" type="radio" class="form-input" name="staff-friendliness" value="poor" required>
+                    <i class="fas fa-thumbs-down"></i>
+                </div>
                 <br>
 
-                <label for="money">Value of Money</label>
-                <input id="money" type="radio" class="form-input" name="money-value" value="excellent" required>
-                <i class="fas fa-thumbs-up"></i>
-                <input id="money" type="radio" class="form-input" name="money-value" value="poor" required>
-                <i class="fas fa-thumbs-down"></i>
-            
-            <br>
+                <div id="label">
+                    <label for="money">Value of Money</label>
+                </div>
 
-            <label for="comments">Any Comments / Suggestions :</label>
-            <input id="comments" type="text" name="comments">
-        
-            <input id="form-submit" type="submit" name="Submit" value="submit">
-        
-        </div>
+                <div id="radio-button">
+                    <input id="money" type="radio" class="form-input" name="money-value" value="excellent" required>
+                    <i class="fas fa-thumbs-up"></i>
+                    <input id="money" type="radio" class="form-input" name="money-value" value="poor" required>
+                    <i class="fas fa-thumbs-down"></i>
+                </div>
+                <br>
+
+                <label for="comments">Any Comments / Suggestions :</label>
+                <input id="comments" type="text" name="comments">
+
+                <input id="form-submit" type="submit" name="Submit" value="submit">
+
+            </div>
 
 
         </form>
