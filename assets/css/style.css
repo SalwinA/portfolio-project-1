@@ -58,7 +58,7 @@ body {
 
 /* Home Page Image */
 #home-image {
-    background: url('../images/tea-1.jpeg') no-repeat center center;
+    background: url('../images/main-tea-pic.jpeg') no-repeat center center;
     width: 100%;
     height: 400px;
     animation-name: image-zoom;
@@ -130,7 +130,7 @@ h2 {
 
 /* Menu Page Image */
 #menu-image {
-    background: url('../images/m5.jpg') no-repeat center center;
+    background: url('../images/menu-pic.jpg') no-repeat center center;
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -180,7 +180,7 @@ h2 {
 
 /* Feedback Image  */
 #feedback-image {
-    background: url('../images/f5.jpg') no-repeat center center;
+    background: url('../images/feedback-pic.jpg') no-repeat center center;
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -189,13 +189,13 @@ h2 {
 
 #label,
 #radio-button {
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
+
 }
 
 #radio-button {
     float: right;
-    text-align: center;
+    width: 70%;
     letter-spacing: 10px;
 }
 
@@ -213,71 +213,54 @@ h2 {
 }
 
 #comments {
-
+    font-size: 80%;
     border: #1c1710 solid 2px;
 }
 
 #form-submit {
-    width: 10%;
+    font-size: 80%;
     border-radius: 10%;
     text-transform: uppercase;
     background-color: #b20084;
     color: white;
 }
 
-@media screen and (max-width:1200px) {
-    #introduction {
-        width: 65%;
-        margin: 0 auto;
-    }
-
-    .form-section,
-#contact {
-
-    width: 100%;
-    margin: 0 auto;
-}
-}
 
 @media screen and (max-width:950px) {
-    .nav-list {
-        float: left;
-        clear: left;
-        line-height: 20px;
-        margin-bottom: 25px;
-        margin-left: 25px;
-    }
 
-    #introduction {
-        width: 90%;
-
-        margin: 20px auto;
-    }
-
-    .menu {
-        width: 80%;
-        padding: 0;
-        height: 950px;
-        text-align: center;
+    .tea-pic,
+    .snack-pic {
+        height: 30%;
+        width: 30%;
 
     }
 
+    #tea-items ul li,
+    #snacks-items ul li {
+        list-style: outside;
+    }
+
+    #introduction,
     #tea-items,
-    #snacks-items {
-        border-style: none;
-        width: 90%;
+    #snacks-items,
+    #location-timings {
+        font-size: 1.5rem;
 
-        text-align: center;
-        display: inline-block;
-        margin: 0 auto;
-        padding: 0;
-        clear: both;
     }
 
-    #labels {
-        width: 70%;
-        height: 950px;
-        margin: 0 auto;
+    #menu-heading {
+        font-size: 2rem;
+    }
+
+    .form-section {
+        width: 90%;
+    }
+
+    #radio-button {
+
+        width: 35%;
+        letter-spacing: 1px;
+
     }
 
 }
