@@ -57,6 +57,11 @@ body {
 }
 
 /* Home Page Image */
+#image-outer {
+
+    overflow: hidden;
+}
+
 #home-image {
     background: url('../images/main-tea-pic.jpeg') no-repeat center center;
     width: 100%;
@@ -76,10 +81,7 @@ body {
     }
 }
 
-#image-outer {
 
-    overflow: hidden;
-}
 
 /* Headings & Logo */
 
@@ -187,13 +189,13 @@ h2 {
 
 }
 
-#label,
-#radio-button {
+.label,
+.radio-button {
     display: inline-block;
 
 }
 
-#radio-button {
+.radio-button {
     float: right;
     width: 70%;
     letter-spacing: 10px;
@@ -228,6 +230,16 @@ h2 {
 
 @media screen and (max-width:950px) {
 
+#nav-list {
+    margin: 0 0 0 20px;
+    line-height: 25px;
+    
+}
+
+#truck-logo {
+    margin-left: 50px;   
+}
+
     .tea-pic,
     .snack-pic {
         height: 30%;
@@ -256,7 +268,7 @@ h2 {
         width: 90%;
     }
 
-    #radio-button {
+    .radio-button {
 
         width: 35%;
         letter-spacing: 1px;
